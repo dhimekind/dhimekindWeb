@@ -1,0 +1,26 @@
+
+@font-face {
+ font-family: "BAUHS93";
+ src: url("BAUHS93/BAUHS93.woff");
+}
+
+body{
+  background: rgba(253,169,133,255);
+}
+
+
+h1{
+  color : white;
+  font-size: 7em;
+  font-family: "BAUHS93";
+}
+
+.textemulticolor{
+  background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+}
+
+
+body:before {
+    background: rgba(220,14,120,0.5);
+    z-index: 1;
+}
